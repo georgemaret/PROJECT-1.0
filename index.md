@@ -1,10 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to PROJECT-1.0
 
-You can use the [editor on GitHub](https://github.com/georgemaret/PROJECT-1.0/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+So this Project is made as a part of developing new repo and learning how to maintain the github and exploring the features made available in GitHub
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Thanking all the contributors who have took efforts to maintain this page
 
-### Markdown
+### Files
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
