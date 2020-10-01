@@ -1,0 +1,108 @@
+from turtle import *
+from random import randint
+print("Welcome to my game")
+print("Select your turtle from below")
+print("1.Brown")
+print("2.Green")
+print("3.Blue")
+print("4.Red")
+x = int(input("Enter the number of your turtle "))
+s = Screen()
+s.bgcolor("orange")
+#finish line
+b = Turtle()
+b.speed()
+for i in range(0,30,5):
+    if i%2 == 0:
+        b.color('white')
+    else:
+        b.color('black')
+    b.penup()
+    b.setpos(200+i,150)
+    b.pendown()
+    b.goto(200+i,-150)
+    
+#heading
+t1 = Turtle()
+t1.penup()
+t1.color('darkblue')
+t1.setpos(-300,200)
+t1.pendown()
+t1.write("Welcome to my Game", font = ('arial',40,'bold italic'))
+
+#turtle 1
+t2 = Turtle()
+t2.shape('turtle')
+t2.color('brown')
+t2.penup()
+t2.setpos(-300,120)
+t2.pendown()
+#turtle 2
+t3 = Turtle()
+t3.shape('turtle')
+t3.color('darkgreen')
+t3.penup()
+t3.setpos(-300,60)
+t3.pendown()
+#turtle 3
+t4 = Turtle()
+t4.shape('turtle')
+t4.color('skyblue')
+t4.penup()
+t4.setpos(-300,0)
+t4.pendown()
+#turtle 4
+t5 = Turtle()
+t5.shape('turtle')
+t5.color('red')
+t5.penup()
+t5.setpos(-300,-60)
+t5.pendown()
+
+st = Turtle()
+st.color('green')
+st.penup()
+st.goto(-250,-200)
+st.pendown()
+st.write("START", font = ('Arial',30, 'bold'))
+
+#race
+p = -300
+r = -300
+q = -300
+s = -300
+while True:
+    t2.goto(p,120)
+    p += randint(0,2)
+    if p > 200:
+        print("Brown wins")
+        predict = 1
+        break
+    t3.goto(q,60)
+    q += randint(0,2)
+    if q > 200:
+        print("Green wins")
+        predict = 2
+        break
+    t4.goto(r,0)
+    r += randint(0,2)
+    if r > 200:
+        print("Blue wins")
+        predict = 3
+        break
+    t5.goto(s,-60)
+    s += randint(0,2)
+    if s > 200:
+        print("Red wins")
+        predict = 4
+        break
+
+win = Turtle()
+win.color("white")
+win.penup()
+win.goto(-300,-300)
+win.pendown()
+if x == predict:
+    win.write("You have won....Hurray !!!!" , font = ("Arial", 40, 'bold'))
+else:
+    win.write("Oops you failed....Try again",font = ('Arial', 40 ,'bold'))
