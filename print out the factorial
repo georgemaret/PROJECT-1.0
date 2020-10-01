@@ -1,0 +1,2 @@
+#printing the factorial of a number
+print("The factorial of number is {}".format(c))
