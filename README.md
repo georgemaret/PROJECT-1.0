@@ -4,7 +4,8 @@ Made for combining your python projects.
 
 Contributors:
 georgemaret ,
-JVK
+JVK,
+ Shalu 
 
 
 
