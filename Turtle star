@@ -1,0 +1,21 @@
+#pgm to draw a star
+
+import turtle
+turtle.goto(-150,0)
+
+#opening a screen
+
+ts=turtle.getscreen()
+ts.title("My turtle star")
+ts.bgcolor("black")
+turtle.pen(fillcolor="yellow", pencolor="white", pensize=10, speed=8 )
+
+# while loop to draw the star
+
+points=1
+while points<5:
+    turtle.forward(250)
+    turtle.left(145)
+    points=points+1
+turtle.goto(-150,0)
+turtle.end_fill()
