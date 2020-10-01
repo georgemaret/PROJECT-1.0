@@ -1,0 +1,30 @@
+
+import  turtle
+
+# Making a turtle diagram
+
+# Opening a screen
+
+ts=turtle.getscreen()
+ts.title("My turtle drawing")
+ts.screensize(4000,3500)
+# initialise t to be used instead of turtle.
+
+t=turtle.Turtle()
+
+# turtle drawing in action
+#drawing springs
+for i in range(0,100,20):
+    
+    t.goto(-i,i)
+    t.penup
+    turtle.pen(fillcolor="white", pencolor="white", pensize=100, speed=8 )
+    c=t.clone()
+    t.color("magenta")
+    c.color("black")
+    t.circle(100)
+    c.circle(60)
+    t.end_fill()
+t.clear()
+
+
