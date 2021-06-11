@@ -2,7 +2,7 @@
 
 Made for combining your python projects.
 
-Contributors:
+## Contributors:
 georgemaret ,
 JVK,
  Shalu, 
