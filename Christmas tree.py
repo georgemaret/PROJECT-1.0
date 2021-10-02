@@ -1,3 +1,4 @@
+# Christmas Tree
 import time
 
 space = " "
@@ -16,5 +17,3 @@ for i in range(9,22,2):
 for i in range(1,8):
     print(space*19+("***"))
 time.sleep(5)
-
-#edit 2
