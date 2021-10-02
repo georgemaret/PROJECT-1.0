@@ -1,6 +1,14 @@
 # Python pgm to check if year is a leap year or not
 
+#welcome
+print("hella fellas, How do you do?")
+print("Lets now check leap years")
+
+
+
 # get the year from the user
+
+
 
 year = int(input("Enter a year: "))
 
