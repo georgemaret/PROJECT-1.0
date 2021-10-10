@@ -1,7 +1,7 @@
 # Python pgm to check if year is a leap year or not
 
 #welcome
-print("hella fellas, How do you do?")
+print("Hello User, How are you doing?")
 print("Lets now check leap years")
 
 
