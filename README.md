@@ -2,10 +2,15 @@
 
 Made for combining your python projects.
 
-Contributors:
+## Contributors:
 georgemaret ,
-JVK,
- Shalu ,Adwaith GS
+JVK,Shalu, 
+Godizon,
+Abin s yaseen,
+Donna Thomas,
+Utkarsh
+also included 
 
 
+Hehehe
 
