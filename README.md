@@ -4,13 +4,13 @@ Made for combining your python projects.
 
 ## Contributors:
 georgemaret ,
-JVK,
- Shalu, 
+JVK,Shalu, 
 Godizon,
 Abin s yaseen,
 Donna Thomas,
 Utkarsh
 also included 
+
 
 Hehehe
 
