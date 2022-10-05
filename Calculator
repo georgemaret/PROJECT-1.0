@@ -14,14 +14,14 @@ def multiply(x, y):
 def divide(x, y):
     return x / y
 
-
-print("Select operation.")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
-
-while True:
+while(x=0)
+    print("Select operation.")
+    print("1.Add")
+    print("2.Subtract")
+    print("3.Multiply")
+    print("4.Divide")
+    print("5.Exit ")
+    
     # Take input from the user
     choice = input("Enter choice(1/2/3/4): ")
 
@@ -43,4 +43,7 @@ while True:
             print(num1, "/", num2, "=", divide(num1, num2))
         break
     else:
-        print("Invalid Input")
+        if choice == '5':
+            x=1
+        else:
+            print("Invalid Input")
