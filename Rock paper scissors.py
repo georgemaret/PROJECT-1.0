@@ -1,4 +1,5 @@
-# Rock Paper Scissors
+# Rock Paper Scissors game
+# Note: This game runs on the terminal
 import time
 import random
 
