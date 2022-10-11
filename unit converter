@@ -2,6 +2,7 @@ import math
 import time
 """Unit Converter"""
 #Welcome and variable setting
+# unit conversion
 print ("Welcome to Sam's Unit Converter")
 cat = raw_input ("Which category would you like to convert? we support length(l) and Weight(w):  ")
 if cat == ("l"):
