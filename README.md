@@ -9,8 +9,7 @@ Godizon,
 Abin s yaseen,
 Donna Thomas,
 Parvathy, 
-Utkarsh, Rohit Paiya, DucheHarsh, Shreejan and wahid-ari
-Khyati Parashar. 
+Utkarsh, Rohit Paiya, DucheHarsh, Shreejan, wahid-ari and Khyati Parashar. 
 
 
 
