@@ -1,16 +1,16 @@
-# This function adds two numbers
+# This function generates the sum two numbers
 def add(x, y):
     return x + y
 
-# This function subtracts two numbers
+# This function generates the difference between two numbers
 def subtract(x, y):
     return x - y
 
-# This function multiplies two numbers
+# This function generates the product of two numbers
 def multiply(x, y):
     return x * y
 
-# This function divides two numbers using a calculator
+# This function divide the two numbers and return the quotient
 def divide(x, y):
     return x / y
 
