@@ -1,3 +1,8 @@
+"""
+Factorial of a positive integer (number) is the sum of multiplication of all the integers smaller than that positive integer. 
+For example, factorial of 5 is 5 * 4 * 3 * 2 * 1 which equals to 120.
+"""
+
 def fact(num):
   num = int(input("Enter the number"))
   c= 1
