@@ -5,7 +5,7 @@ import random
 
 your_score = 0
 comp_score = 0
-
+#instructions
 while True:
     print('INSTRUCTIONS:')
     print('-----------------------')
