@@ -25,6 +25,8 @@ for i in range(0,30,5):
     b.goto(200+i,-150)
     
 #heading
+
+
 t1 = Turtle()
 t1.penup()
 t1.color('darkblue')
