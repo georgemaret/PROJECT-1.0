@@ -1,6 +1,8 @@
 from guietta import _, Gui, Quit
 import random
 
+
+
 gui= Gui(
     [_,"Deck of Card",_],
     [_, ["Shuffle"], _],
